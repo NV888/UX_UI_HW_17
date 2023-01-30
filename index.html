@@ -8,46 +8,49 @@
   <title>NYREE.V PORTFOLIO</title>
 </head>
 
-<body>
+<body> <!-- You are missing the closing body tag. -->
    
   <header class="navigation test">
-  <div class="LOGOICON.jpg"></div>
-    <img src="/-UX_UI_HW_17 _8/images/Images/LOGOICON.jpg">
-    <div></div>
+    <div class="LOGOICON.jpg">
+      <img src="./images/Images/LOGOICON.jpg">
+    </div> <!-- Do not use periods, spaces, or special charaters in your classes and ID tags: instead, name it "logoicon" or "logo-icon" -->
+    <!-- <div></div> --> <!-- You don't need an empty div tag. If you are looking for space between elements, use margins on the element above the one you want to make distance for -->
     <nav class="inline-block">
-      
-         <a href="inline-block and logo"></a> 
-       
+      <a href="inline-block and logo"></a> <!-- You are using the word "and" between two class names. Remove that and and keep the class names separated by a space. -->
       <ul>
-            <li class="inline-block">HOME</li>
-            <li class="inline-block">PORTFOLIO</li>
-            <li class="inline-block">GALLERY</li>
-            <li class="inline-block">ABOUT ME</li>
-          </ul>
-          <h1>MY QUOTE ABOUT UX DESIGN</h1>
-        </div>
-       
+        <li class="inline-block">HOME</li>
+        <li class="inline-block">PORTFOLIO</li>
+        <li class="inline-block">GALLERY</li>
+        <li class="inline-block">ABOUT ME</li>
+      </ul>
+        <!-- </div> --> <!-- This closing tag needs to be removed. There is no opening body tag for this one.  -->
     </nav>
+    <!-- </div> --> <!-- This closing div does not correlate to an opening div tag. -->
+  </header>
+  <!-- <div class="heroimg"> --> <!-- There is no closing div tag for this "heroimg" element -->
+  <div class="content">
+    <h1>MY QUOTE ABOUT UX DESIGN</h1> <!-- Moved this h1 from the nav element into the .content section -->
+    <img src="./images/Images/MY PIC.jpg"> <!-- You used the incorrect folder location of your image -->
+    <button type="button">RESUME</button>
+  </div> 
+  <footer> <!-- Moved your unordered list to the footer element -->
+      <ul> <!-- This unordered list is not necessary. make the "Portfolio linked in contact" content all one paragraph by removing the li tags and replacing with one p tag. -->
+        <li class="inline-block">PORTFOLIO</li>
+        <li class="inline-block">LINKED IN</li>
+        <li class="inline-block">CONTACT</li>
+        <li class="inline-block">NYREE.V COPYRIGHT ALL RIGHTS RESERVED © </li>
+      </ul>  
+      
+      <!-- 
 
-    </div>
-</header>
-          <div class="heroimg">
-          <div class="content"> 
+        Here is an example of this footer element and its contents:
 
-          </div> 
-          <img src="/-UX_UI_HW_17 _8/images/Images/MY PIC.jpg ">
+        <footer>
+          <p>Portfolio linked in contact.</p>
+          <p>Nyree.V Copyright all rights reserved</p>
+        </footer>
 
-          
-          <button type="button">RESUME</button>
-          <footer>
-            
-          </footer>
-          <ul>
-            <li class="inline-block">PORTFOLIO</li>
-            <li class="inline-block">LINKED IN</li>
-            <li class="inline-block">CONTACT</li>
-            <li class="inline-block">NYREE.V COPYRIGHT ALL RIGHTS RESERVED © </li>
-            
-            
-          </ul>        
+      -->
+
+  </footer>    
 </html> 

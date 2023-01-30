@@ -35,29 +35,11 @@ text-align: center;
   color: rgb(74, 22, 206);
 }
 
+/* Jonathan's css */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
+/* This sets the header as display: flex which places all elements within it side by side. Then I added justify-content: space between which allows the logo to be on the far left and the nav to the far right.  */
+header.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
